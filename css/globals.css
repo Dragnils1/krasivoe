@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+@font-face {
+  font-family: "Gotham Pro-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/GothaProMed.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/GothaProBol.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham Pro-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gotham Pro Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham Pro-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/GothamPro-Light.ttf") format("truetype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/626392892c67eedc2afe42b5.6263928bfe83d0e747c92ada.BLU5eKc.hcp.png");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
